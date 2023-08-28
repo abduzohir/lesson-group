@@ -343,7 +343,7 @@
   margin-bottom: 13px;
 }
 .about__content {
-  background-image: url(../images/Background.png);
+  background-image: url(../images/bgcontainers.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -715,6 +715,425 @@
   line-height: normal;
   margin-top: 16px;
   margin-bottom: 26px;
+}
+.expert__content-cards{
+  display: flex;
+  column-gap: 54px;
+}
+.contact__us__main-wrapper {
+  display: flex;
+  column-gap: 88px;
+  margin-bottom: 70px;
+}
+.contact__us {
+  background: #091242;
+  padding: 143px 0;
+}
+.contact__wrapper {
+  display: flex;
+}
+.left__border {
+  width: 4px;
+  height: 23px;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+.contact__us-wrapper .contact__wrapper-subtitle {
+  padding: 3px 9px;
+  background: #E8E8E81A;
+  gap: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  margin-bottom: 13px;
+}
+.contact__us-wrapper h2 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  color: #fff;
+  margin-bottom: 3px;
+}
+.contact__us-wrapper p {
+  font-family: 'krub';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.24px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  width: 353px;
+}
+.contact__us-form {
+  padding-top: 42px;
+  width: 100%;
+}
+.contact__us-email {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.contact__us-email span {
+  color: #fff;
+  font-family: 'krub';
+  font-size: 14px;
+  line-height: 18.9px;
+}
+.username__email {
+  display: flex;
+  column-gap: 28px;
+  margin-bottom: 31px;
+  cursor: pointer;
+  width: 100%;
+}
+.username__email input {
+  padding: 21px 0 21px 30px;
+  border: 1px solid #4E5683;
+  background: #091242;
+  color: #fff;
+  font-family: 'LeagueSpartan';
+  width: 365px;
+  height: 60px;
+}
+.number__city {
+  display: flex;
+  column-gap: 28px;
+  margin-bottom: 31px;
+  background: #091242;
+  width: 100%;
+}
+.number__city input {
+  padding: 21px 0 21px 30px;
+  border: 1px solid #4E5683;
+  background: #091242;
+  color: #fff;
+  font-family: 'LeagueSpartan';
+  width: 365px;
+  height: 60px;
+}
+.number__city input:active {
+  background: #091242;
+}
+.message {
+  width: 100%;
+  height: 154px;
+  background: #091242;
+  border: 1px solid #4E5683;
+  background: #091242;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-left: 24px;
+  font-family: 'LeagueSpartan';
+}
+.contact__us-btn {
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  font-family: 'Krub', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  border: 1px solid transparent;
+  text-align: left;
+  color: #23212A;
+  padding: 19px 34px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact__us-btn:hover {
+  background: #041887;
+  color: #FFDA56;
+}
+.contact__us-btn:active {
+  transform: scale(0.96);
+}
+
+.news{
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 90px;
+}
+.news__latest-our{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news__latest-our span{
+  color: #1C1F35;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 3px 10px;
+  align-items: center;
+  gap: 10px;
+  background: rgba(232, 232, 232, 0.50);
+}
+.news__latest{
+  gap: 13px; 
+}
+.news__latest-title{
+  color: #1C1F35;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;  
+  margin-bottom:39px; 
+  margin-top: 10px;
+}
+.news__latest-photos{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-top: 29px;
+  padding-bottom: 35px;
+  border: 1px solid #D6D6D6; ;
+  padding: 20px;
+  border-left: none;
+  border-right: none;
+}
+  .news__latest-photos-text h3{
+    width: 348px;
+    color: #1C1F35;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:  29px;
+  }
+.news__latest-photos-text p{
+  width: 335px;
+  color: #666C89;
+  font-family:'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.523%;
+  padding-top: 16px;
+  padding-left:29px ;
+}
+.news__latest-photo-text-ul{
+  width: 335px;
+  color: #1C1F35;
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 166.523%;
+  padding-top:18px;
+  padding-left:29px ;
+}
+.news__latest-photos-line{
+  width: 1px;
+  height: 308px;
+  background: #D6D6D6;
+}
+.photos-blok,
+.photos-blok-black--2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 35px;
+  padding-top: 29px;
+  position: relative;
+}
+.photos-blok-black--2{
+    position: absolute;
+    left: 50px;
+    z-index: 4;
+}
+.news__latest-button{
+  color: #FFF;
+  font-family:'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135.023%;
+  background-image: url(../images/Background.png);
+  padding: 19px 59px;
+  background-position: center;
+  margin-top: 39px;
+  margin-left: 377px;
+  margin-bottom: 90px;
+}
+.shipes{
+  background-color:#091242;   
+  overflow: hidden;
+}
+.shipes__transitflow{
+  display: flex; 
+  column-gap: 63px;   
+}
+.shipes__transitflow-color{
+  width: 312px;
+  height: 118px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.08); 
+  margin-top:-5px;   
+}
+.shipes__transitflow-img{
+   margin-top: 43px; 
+   margin-bottom: 43px;  
+}
+.shipes__transitflow-img-email{
+  display: flex; 
+  gap: 14px;
+}
+.shipes__transitflow-img-email span{
+  color: #FFF;
+  font-family: 'krub';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.023%;
+  padding-top: 11px;
+}
+.shipes__transitflow-img-call{
+  display: flex; 
+  gap: 14px;  
+  margin-top: 30px; 
+}
+  .shipes__transitflow-img-call{
+  color: #FFF;
+  font-family: 'krub';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.023%;
+  padding-top: 11px;
+}
+.shipes__transitflow-big-title{
+  display: flex;
+  width:1181px;
+  background-color:rgba(255, 255, 255, 0.08);
+  color: #FFF;
+  margin-top: -5px ;
+}
+.shipes__transitflow-img p{
+  width: 319px;
+  color: #E8E8E8;
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.523%;
+  padding-top:77px;
+  padding-bottom:33px;
+}
+.shipes__transitflow-big-title h5{
+  color: #FFF;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 44px;
+  padding-left:54px ;
+  right: 553px;
+  padding-bottom:44px;
+}
+.shipes__transitflow-big-title{
+  gap:152px;    
+}
+.shipes__transitflow-big-box-ul{
+  padding-left: 54px;
+}
+.shipes__transitflow-big-box-ul-item{
+  color: #FFF;
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 250%;
+  list-style: none;
+}
+.shipes__transitflow-big-box{
+  display: flex;  
+  padding-top:74px;  
+  gap: 230px;
+}
+.shipes__transitflow-big-box input{
+  width: 317px;
+  border: 1px solid #4E5683;  
+  padding-top: 21px; 
+  padding-bottom: 21px;
+  padding-left: 40px;
+  padding-right:192px;
+}
+.photos-blok-black--3{
+  z-index: 5;
+  left: -50px;
+}
+.h3-yellow{
+  color: #FFBE34 !important;
+}
+.footer-blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 20px;
+}
+.footer-blog-sayt{
+  display: flex;
+  gap:27px; 
+  padding-left: 35px;
+}
+.footer-blog-button{
+  color: #23212A;
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135.023%;
+  background: linear-gradient(127deg, #FFB629 0%, #FFDA56 50.72%, #FFD7A6 100%);
+  padding:19px 36px;
+} 
+.power{
+  background-color: #091242;
+}
+.power__werbflow h5{
+  color: #FFF;
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 250%  
+}
+.power__werbflow{
+  display: flex;
+  justify-content: space-evenly;
+  border:1px solid #4E5683;
+  border-left:none;
+  border-right:none;
+  border-bottom: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left:90px ;
+}
+.power__werbflow-blog{
+  display: flex;
+}
+.power__werbflow span{
+  color: #8388A7;
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%;
+  word-spacing: 20px;
+}
+.photos-blok-black--3{
+  position: absolute;
+  left: 190px;
+  color: var(--white);
+  font-family: 'krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135.023%;
 }
 
 
